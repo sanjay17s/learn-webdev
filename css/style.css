@@ -1,0 +1,20 @@
+/* Styling for unvisited links */
+a:link {
+    color: darkmagenta; /* Color for unvisited links */
+    text-decoration: none; /* Removes the underline */
+}
+
+/* Styling for visited links */
+a:visited {
+    color: red; /* Color for visited links */
+}
+
+/* Styling for links on hover */
+a:hover {
+    color: orange; /* Change color when hovered */
+}
+
+/* Styling for active links */
+a:active {
+    color: red; /* Change color when the link is clicked */
+}

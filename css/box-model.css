@@ -1,0 +1,27 @@
+.floted div {
+    float: left;
+}
+
+.box1 {
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.box2 {
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.box3 {
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    border: 2px solid black;
+    text-align: center;
+}

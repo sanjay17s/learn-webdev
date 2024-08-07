@@ -1,0 +1,9 @@
+.chap p {
+    margin: 0;
+}
+
+.chap::after {
+    content: "litrally";
+    color: crimson;
+
+}
