@@ -1,6 +1,7 @@
-.floted div {
-    float: left;
+* {
+    box-sizing: border-box;
 }
+
 
 .box1 {
     font-size: 20px;
@@ -24,4 +25,16 @@
     background-color: blue;
     border: 2px solid black;
     text-align: center;
+}
+
+.para span{
+    color: red;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.floted {
+    float: left;
+    flex-direction: column-reverse;
 }
