@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+}
+.main-header {
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    border: 3px solid black;
+    padding: 30px;
+    margin: 0;
+    align-items: center;
+}
+
+.nav-links li {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:gray;    
+}
+
+.story-1 {
+    grid-area: breaking; 
+}
+
+.story-2 {
+    grid-area: chithrashala; 
+}
+
+.story-3 {
+    grid-area: futsal; 
+}
+
+.story-4 {
+    grid-area: evoor; 
+}
+
+.story-5 {
+    grid-area: cbi; 
+}
+
+.articles {
+    display: grid;
+    grid-template-areas: 
+        "breaking chithrashala futsal futsal"
+        "breaking cbi cbi evoor"; 
+    
+}
+
+article {
+    border: 0.5px solid black;
+    padding: 10px;
+}
+.article-text {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}

@@ -1,0 +1,34 @@
+.wrapper {
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-columns: repeat(4, 1fr); /* Create three equal columns */
+    grid-template-areas: 
+    "im1 im1 im2 im2"  /* Leave the second column empty in the first row */
+    "im3 . im4 im4"; /
+  }
+  
+  .we {
+    grid-area: im1;
+  }
+  
+  .wa {
+    grid-area: im2;
+  }
+  
+  .wq {
+    grid-area: im3;
+  }
+  
+  .ww {
+    grid-area: im4;
+  }
+  
+  .image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+  }
+  
